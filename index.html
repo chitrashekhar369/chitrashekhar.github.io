@@ -1,7 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chitra Shekhar | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
+        header { background: #333; color: #fff; padding: 2rem 0; text-align: center; }
+        nav { background: #444; padding: 1rem 0; text-align: center; }
+        nav a { color: #fff; margin: 0 1rem; text-decoration: none; }
+        .container { max-width: 900px; margin: 2rem auto; background: #fff; padding: 2rem; border-radius: 8px; }
+        h2 { color: #333; }
+        .projects { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+        .project { background: #f9f9f9; padding: 1rem; border-radius: 6px; }
+        footer { background: #333; color: #fff; text-align: center; padding: 1rem 0; margin-top: 2rem; }
+        @media (max-width: 600px) {
+            .projects { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
 <body>
-<h1>Chitra Shekhar</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
-</html>
+    <header>
+        <h1>Chitra Shekhar</h1>
+        <p>Web Developer | Designer | Creator</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Chitra, a passionate web developer with experience in building responsive and user-friendly websites. I love turning ideas into reality using code and design.</p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Portfolio Website</h3>
+                    <p>A personal portfolio website to showcase my skills and projects. Built with HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="project">
+                    <h3>Task Manager App</h3>
+                    <p>A simple and intuitive task manager application to organize daily tasks. Developed using React and Firebase.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:chitra@example.com">chitra@example.com</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/chitra-shekhar" target="_blank">chitra-shekhar</a></p>
+        </section>
+    </div>
+    <footer>
+        &copy; 2025 Chitra Shekhar. All rights reserved.
+    </footer>
